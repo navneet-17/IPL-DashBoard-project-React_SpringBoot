@@ -1,0 +1,5 @@
+Java does not support multiple inheritance. It cannot have one class that inherits more than one classes.
+A class can only inherit from one superclass. In the Java programming language, each class is allowed to have one direct superclass, and each superclass has the potential for an unlimited number of subclasses.
+```
+However, you can use interfaces to implement multiple inheritance.
+Interfaces are not classes, however, and an interface can extend more than one parent interface. The following Sports interface is extended by Hockey and Football interfaces.
