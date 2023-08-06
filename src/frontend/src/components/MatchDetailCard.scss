@@ -1,0 +1,51 @@
+.MatchDetailCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  .match-date,
+  .match-venue,
+  .match-result {
+    margin-top: 10px;
+  }
+  .additional-detail {
+    text-align: right;
+    & > p {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// .MatchDetailCard {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+//   padding: 5px;
+//   margin-bottom: 10px;
+
+//   .match-date,
+//   .match-venue,
+//   .match-result {
+//     margin-top: 10px;
+//   }
+
+//   .innings-detail {
+//     text-align: left;
+//     grid-template-columns: 1fr;
+//   }
+
+//   .additional-detail {
+//     text-align: left;
+//     & > p {
+//       margin-bottom: 5px;
+//     }
+//   }
+
+//   .won-card {
+//     background-color: rgb(153, 210, 126);
+//   }
+
+//   .lost-card {
+//     background-color: rgb(209, 74, 74);
+//   }
+// }
